@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: planMD
+      description: Creates a concise engineering implementation plan based on user requirements and saves it to specs directory as Markdown
+      source: /Users/michael.cooper/.claude/skills/planMD/SKILL.md
   agents: []
   prompts: []

@@ -12,7 +12,7 @@ A meta-skill for private-first distribution of agentics (skills, agents, and pro
 
 > Update these after forking and cloning the library repo.
 
-- **LIBRARY_REPO_URL**: `<your forked repo url>`
+- **LIBRARY_REPO_URL**: `https://github.com/mikoop79/the-library`
 - **LIBRARY_YAML_PATH**: `~/.claude/skills/library/library.yaml`
 - **LIBRARY_SKILL_DIR**: `~/.claude/skills/library/`
 
@@ -32,7 +32,7 @@ The Library is a catalog of references to your agentics. The `library.yaml` file
 | `/library push <name>`      | Push local changes back to source        |
 | `/library remove <name>`    | Remove from catalog and optionally local |
 | `/library list`             | Show full catalog with install status    |
-| `/library sync`             | Re-pull all installed items from source   |
+| `/library sync`             | Re-pull all installed items from source  |
 | `/library search <keyword>` | Find entries by keyword                  |
 
 ## Cookbook
